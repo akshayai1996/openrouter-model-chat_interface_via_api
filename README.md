@@ -74,6 +74,27 @@ A native Windows desktop application built with C# and WPF.
 
 ---
 
+## 🐍 Python Version (Cross-Platform)
+
+A cross-platform desktop application built with Python and PySide6 (Qt).
+
+### Prerequisites
+- [Python 3.10+](https://www.python.org/downloads/) installed.
+
+### Installation & Run
+1.  **Download the entire** `Python Version` folder.
+2.  Install dependencies:
+    ```bash
+    pip install -r "Python Version/requirements.txt"
+    ```
+3.  Run the application:
+    ```bash
+    python "Python Version/main.py"
+    ```
+    *Note: Ensure `APIKEY.txt` is in the `Python Version` folder or the parent directory.*
+
+---
+
 ## Features
 - **Model Selection**: Choose from free and paid OpenRouter models.
 - **Real-time Streaming**: Chat responses stream in real-time.
