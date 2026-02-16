@@ -1,0 +1,7 @@
+openrouter/aurora-alpha | Aurora Alpha
+openrouter/free | Free Models Router
+stepfun/step-3.5-flash:free | StepFun: Step 3.5 Flash (free)
+arcee-ai/trinity-large-preview:free | Arcee AI: Trinity Large Preview (free)
+qwen/qwen3-vl-30b-a3b-thinking | Qwen: Qwen3 VL 30B A3B Thinking
+qwen/qwen3-vl-235b-a22b-thinking | Qwen: Qwen3 VL 235B A22B Thinking
+qwen/qwen3-235b-a22b-thinking-2507 | Qwen: Qwen3 235B A22B Thinking 2507

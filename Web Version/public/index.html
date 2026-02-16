@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Interface</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Code Highlight -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <button id="new-chat-btn">+ New Chat</button>
+                <button id="temp-chat-btn" title="Messages won't be saved">🔥 Temporary Chat</button>
+            </div>
+            <div class="session-list" id="session-list">
+                <!-- Sessions will be injected here -->
+            </div>
+        </aside>
+
+        <!-- Main Chat Interface -->
+        <div class="chat-wrapper">
+            <!-- Sidebar / Settings / Model Selection -->
+            <header class="app-header">
+                <div class="logo-area">
+                    <div class="logo-icon">AI</div>
+                    <h1>Chat Assistant</h1>
+                </div>
+
+                <div class="settings-area">
+                    <label for="model-select">Select Model:</label>
+                    <div class="select-wrapper">
+                        <select id="model-select">
+                            <option value="openrouter/free">Free Models Router (Auto)</option>
+                            <option value="openrouter/aurora-alpha">Aurora Alpha</option>
+                            <option value="stepfun/step-3.5-flash:free">StepFun: Step 3.5 Flash</option>
+                            <option value="arcee-ai/trinity-large-preview:free">Arcee AI: Trinity Large Preview</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Chat Area -->
+            <main class="chat-container" id="chat-container">
+                <div class="welcome-message">
+                    <h2>Welcome to AI Chat</h2>
+                    <p>Select a model and start chatting below.</p>
+                </div>
+                <!-- Messages go here -->
+            </main>
+
+            <!-- Input Area -->
+            <footer class="input-area">
+
+                <div class="input-wrapper">
+                    <textarea id="user-input" placeholder="Type your message here..." rows="1"></textarea>
+                    <button id="send-btn" title="Send Message" disabled>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                            fill="currentColor">
+                            <path
+                                d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="loading-indicator hidden" id="loading-indicator">
+                    <span>AI is thinking...</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.8/purify.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

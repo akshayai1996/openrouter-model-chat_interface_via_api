@@ -1,0 +1,34 @@
+# API Keys - CRITICAL: DO NOT COMMIT
+APIKEY.txt
+api_key.txt
+.env
+secret.txt
+
+# Node.js
+node_modules/
+.npm
+npm-debug.log
+Web Version/node_modules/
+
+# .NET / C#
+bin/
+obj/
+*.user
+*.suo
+packages/
+.vs/
+AIChatApp/bin/
+AIChatApp/obj/
+Local EXE Version/AIChatApp/bin/
+Local EXE Version/AIChatApp/obj/
+
+# System / IDE
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+error_log.txt
+build_log.txt
