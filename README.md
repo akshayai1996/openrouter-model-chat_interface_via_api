@@ -34,7 +34,8 @@ A simple web interface powered by Node.js.
 - [Node.js](https://nodejs.org/) installed on your machine.
 
 ### Installation & Run
-1.  Navigate to the `Web Version` folder:
+1.  **Download the entire** `Web Version` folder (not just `public`).
+2.  Navigate to the `Web Version` folder:
     ```bash
     cd "Web Version"
     ```
@@ -60,14 +61,14 @@ A native Windows desktop application built with C# and WPF.
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) (if you want to build/modify the source).
 
 ### How to Run
-1.  **From Source**:
     - Open `Local EXE Version/AIChatApp` in your terminal or Visual Studio.
     - Run the command:
       ```bash
       dotnet run
       ```
 2.  **Using Pre-built Executable**:
-    - Navigate to `Local EXE Version/ReadyToRun`.
+    - **Download the entire** `Local EXE Version/ReadyToRun` folder. (The `.exe` needs the other files in there to work).
+    - Navigate to that folder.
     - Double-click `AIChatApp.exe`.
     *Note: Create a file named `APIKEY.txt` in this folder and paste your key inside.*
 
