@@ -66,10 +66,10 @@ A native Windows desktop application built with C# and WPF.
       ```bash
       dotnet run
       ```
-2.  **Using Pre-built Executable** (if available):
-    - Navigate to `bin/Release/net8.0-windows`.
+2.  **Using Pre-built Executable**:
+    - Navigate to `Local EXE Version/ReadyToRun`.
     - Double-click `AIChatApp.exe`.
-    *Note: Ensure `APIKEY.txt` is in the same folder as the executable.*
+    *Note: Create a file named `APIKEY.txt` in this folder and paste your key inside.*
 
 ---
 
